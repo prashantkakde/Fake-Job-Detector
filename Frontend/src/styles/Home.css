@@ -1,0 +1,65 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f4f6f9;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  background:white;
+}
+
+.nav-links{
+  display:flex;
+  gap:20px;
+  list-style:none;
+}
+
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
+
+.feature-grid,
+.step-container,
+.stats{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.feature-card,
+.step-card,
+.stat-box,
+.testimonial-card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.features,
+.steps,
+.stats,
+.testimonials,
+.cta{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.primary-btn{
+  padding:12px 20px;
+  border:none;
+  cursor:pointer;
+  border-radius:8px;
+}
+
+.footer{
+  text-align:center;
+  padding:20px;
+  background:#111827;
+  color:white;
+}
